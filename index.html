@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>악성민원</title>
+    <style>
+        
+        /* 기본 스타일 초기화 */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        @font-face {
+            font-family: 'Pretendard-Regular';
+            src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        body {
+            background-color: black;
+        }
+
+        /* 네비게이션 바 스타일 */
+        .navbar {
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 30px 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-family: 'Pretendard-Regular', sans-serif;
+            font-size: 18px;
+            color: white;
+        }
+
+        .navbar span {
+            margin-right: 5px;
+            margin-left: 5px;
+        }
+
+        /* 이미지 컨테이너 스타일 */
+        .image-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding: 20px;
+            max-width: 1920px;
+            margin: 0 auto;
+        }
+
+        /* 이미지 스타일 */
+        .image-container img {
+            width: calc(33.33% - 20px);
+            height: auto;
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+            cursor: pointer;
+            filter: grayscale(100%);
+        }
+
+        /* 마우스 오버 시 이미지 확대 및 회전 효과 */
+        .image-container img:hover {
+            transform: scale(1.5) rotate(5deg);
+            filter: grayscale(0%);
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div>악성민원</div>
+        <div>
+            <span>실태</span>
+            <span>발현형태</span>
+            <span>문제점</span>
+            <span>해결방안</span>
+        </div>
+    </div>
+    <div class="image-container">
+        <img src="01.png" alt="01.png">
+        <img src="02.png" alt="02.png">
+        <img src="04.png" alt="04.png">
+        <img src="05.png" alt="05.png">
+        <img src="06.png" alt="06.png">
+        <img src="07.png" alt="07.png">
+    </div>
+
+
+
+</div>
+</body>
+</html>
+
+
